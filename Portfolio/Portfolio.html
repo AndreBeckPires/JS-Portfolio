@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src = "script.js"></script>
+    </head>
+    <body id = "main">
+        <div id = "botoes">
+            <button class = "botao" onclick="Mostrar('Eu')">Sobre Mim</button>
+            <button class = "botao" onclick="Mostrar('Jogo1')">The Goat Quest</button>
+            <button class = "botao" onclick="Mostrar('Jogo2')">Shoot and Jump</button>
+            <button class = "botao" onclick="Mostrar('Jogo3')">Minion Parkour</button>
+            <button class = "botao" onclick="Mostrar('Jogo4')">Piratas do Novo Mundo</button>
+        </div>
+        <div id = "corpo">
+            <div id = "Eu" class="tabcontent">
+                <div class = "Description">
+                    <h1> Sobre mim</h1>    
+                    <p>André Beck Pires</p>     
+                    <p>Rio Grande do Sul</p>
+                    <p>Novo Hamburgo</p>           
+                    <p>Estudante do curso de Jogos Digitais na Universidade do Vale dos Sinos (UNISINOS).</p>
+                </div>
+            </div>
+            <div id = "Jogo1" class="tabcontent">
+                <div class = "Fotos">
+                    <img id="imagem" src="tgq.png" alt="The Goat Quest">
+                </div>
+                <div class = "Description">
+                    <h1> The Goat Quest</h1>
+                    <p>Jogo desenvolvido em C++ utilizando a LibUnicornio, neste jogo você controla as escolhas de um jovem que tem sua 
+                        cabra roubada por um fazendeiro do mal. </p>
+                </div>
+            </div>
+            <div id = "Jogo2" class="tabcontent">
+                <div class = "Fotos">
+                    <img id="imagem" src="snj.png" alt = "shoot and jump">
+                </div>
+                <div class = "Description">
+                    <h1> Shoot and Jump</h1>               
+                    <p>Multiplayer local que tem como inspiração os duelos do velho-oeste. Desenvolvido em C# utilizando a Unity.</p>
+                </div>
+            </div>
+            <div id = "Jogo3" class="tabcontent">
+                <div class = "Fotos">
+                    <img id="imagem" src="minion.png" alt="parkour minion">
+                </div>
+                <div class = "Description">
+                    <h1> Minion Parkour</h1>
+                    <p>Jogo de parkour com temática de terror e tendo como personagem principal um Minion (Meu Malvado Favorito). Desenvolvido
+                        em C## utilizando a Unity e com o objetivo de explorar mecânicas de física.
+                    </p> 
+                </div>
+            </div>  
+            <div id = "Jogo4" class="tabcontent">
+                    <div class = "Fotos">
+                        <img id="imagem" src="piratas do novo mundo.png" alt="piratas do novo mundo">
+                    </div>
+                    <div class = "Description">
+                        <h1>Piratas do Novo Mundo</h1>
+                        <p>Explore os céus como o comandante de um navio pirata steampunk. O jogador deve explorar ilhas flutuantes em busca
+                             de recursos em busca de fragmento de um mapa que o tornará rei dos piratas. Desenvolvido usando a Godot Game Engine.
+                        </p> 
+                    </div>
+                </div>  
+        </div>
+        
+    </body>
+
+
+</html>

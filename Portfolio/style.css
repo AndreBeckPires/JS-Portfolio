@@ -1,0 +1,38 @@
+#Eu{
+    display: none;
+}
+#Jogo1{
+    display: none;
+}
+#Jogo2{
+    display: none;
+}
+#Jogo3{
+    display: none;
+}
+#Jogo4{
+    display: none;
+}
+#main{
+    background-color: black;
+}
+#imagem{
+    width: 100%;
+    height: 80%;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color:gray;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color:gray;
+}
+#botoes{
+    text-align: center;
+}
+.botao{
+    background-color: gray;
+}
